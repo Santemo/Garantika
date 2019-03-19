@@ -1,0 +1,171 @@
+html{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.bg {
+	background-image: url(../img/bg.bmp);
+	background-size: 100% 100%;
+	width: 720px;
+	height: 1040px;
+}
+.logo_img {
+	position: absolute;
+	width: 640px;
+    top: 40px;
+    left: 35px;
+}
+.h1 {
+	position: absolute;
+	top: 185px;
+    left: 75px;
+    font-size: 50px;
+	color: #6495ED;
+	text-shadow: 2px 2px 0px black, 0px 2px 2px black, 2px 2px 0px black;
+}
+.garant {
+	position: absolute;
+	width: 180px;
+    top: 190px;
+    left: 440px;
+}
+.content {
+	width: 600px;
+	position: absolute;
+	top: 355px;
+    left: 55px;
+}
+.first_p, .second_p, .third_p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.first_p {
+	padding-bottom: 30px;
+}
+.first_p:after {
+	content: "";
+	height: 2px;
+	width: 590px;
+	background-color: black;
+	position: absolute;
+	top: 70px;
+	left: 0;
+}
+.third_p {
+	text-align: center;
+	margin-left: 170px;
+}
+.third_p:before {
+	content: "";
+    height: 2px;
+    width: 370px;
+    background-color: black;
+    position: absolute;
+    top: 145px;
+    left: 0;
+}
+.third_p:after {
+	content: "";
+    height: 2px;
+    width: 191px;
+    background-color: black;
+    position: absolute;
+    top: 145px;
+    margin-left: 5px;
+}
+.main_text {
+	font-size: 13px;
+}
+.main_p {
+	margin-top: 40px;
+	line-height: 1.7;
+	margin-bottom: 15px;
+}
+.h3 {
+	font-size: 15px;
+	padding-top: 5px
+}
+.h3_2 {
+	margin-top: 40px;
+}
+li {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.h4 {
+	color: #6495ED;
+	text-shadow: 1px 1px 0px black, 0px 1px 1px black, 1px 1px 0px black;
+}
+.bg_2 {
+	background-image: url(../img/bg.bmp);
+	background-size: 100% 100%;
+	width: 720px;
+	height: 1040px;
+	position: relative;
+}
+.h1_bg {
+	position: absolute;
+	font-size: 40px;
+	left: 120px;
+    top: 70px;
+	color: #6495ED;
+	text-shadow: 2px 2px 0px black, 0px 2px 2px black, 2px 2px 0px black;
+}
+.list_items {
+	position: absolute;
+	left: 50px;
+	top: 170px;
+}
+.list_item {
+	padding: 10px;
+	border-bottom: 1px solid black;
+	width: 520px;
+	margin: 0;
+}
+.list_item:nth-child(2n+1){
+	background-color: rgba(100, 149, 237, 0.4);
+}
+.signature {
+	position: absolute;
+	top: 790px;
+    left: 90px;
+    font-size: 18px;
+}
+.signature:after {
+	content: "";
+    height: 2px;
+    width: 220px;
+    background-color: black;
+    position: absolute;
+    top: 18px;
+    margin-left: 290px;
+}
+.mp {
+	position: absolute;
+	top: 920px;
+    right: 110px;
+    font-size: 18px;
+}
+
+
+
